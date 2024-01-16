@@ -10,11 +10,13 @@
 </head>
 <body>
     <p>
-    <button onClick="totalClick">+</button>
-    <span>0</span>
-    <button>-</button>
+    <button onClick="totalClick(1)">+</button>
+    <span id="totalClicks">0</span>
+    <button onClick="totalClick(-1)">-</button>
+    
 </p>
-        
+       
+<button onClick="totalClick(0)">RESET</button>
     <script src="script.js"></script>
 </body>
 </html>
