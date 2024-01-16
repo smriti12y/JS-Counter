@@ -14,9 +14,9 @@ function totalClick(click) {
    if(click===0){
     totalClicks.innerText=  0;
    }
-
    
-}
 
+  }
+  
 
  
